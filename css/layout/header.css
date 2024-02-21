@@ -243,6 +243,13 @@ header{
         overflow-x: hidden;
         width: 100%;
       }
+      .bagcounter{
+        right:-4.5px !important;
+        top: -8px !important;
+      }
+     
+      
+      
     }
     
     @media  screen and (max-width:576px){
@@ -257,6 +264,9 @@ header{
         overflow-x: hidden;
         padding-right: 3px;
       }
+    
+      
+      
      
       
     }
@@ -270,6 +280,8 @@ header{
         overflow-y: hidden;
         overflow-x: hidden;
       }
+     
+      
      
     }
 
