@@ -234,7 +234,7 @@ header{
     
     @media  screen and (max-width:768px){
       .container {
-        max-width: 576px;
+        max-width: 575px;
         
         
       }
@@ -255,6 +255,7 @@ header{
         width: 100%;
         overflow-y: hidden;
         overflow-x: hidden;
+        padding-right: 3px;
       }
      
       
