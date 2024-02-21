@@ -241,6 +241,7 @@ header{
       .header_wrap{
         overflow-y: hidden;
         overflow-x: hidden;
+        width: 100%;
       }
     }
     
@@ -251,6 +252,7 @@ header{
         
       }
       .header_wrap{
+        width: 100%;
         overflow-y: hidden;
         overflow-x: hidden;
       }
