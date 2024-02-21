@@ -192,7 +192,8 @@ footer .footertop{
     grid-template-columns: 1fr;
    }
    .footermiddle{
-    height: 410px;
+    height: 430px;
+    overflow-y: hidden;
    }
    .footerlinks{
     gap:10px;
