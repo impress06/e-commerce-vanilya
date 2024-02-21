@@ -238,6 +238,9 @@ header{
         
         
       }
+      .header_wrap{
+        overflow-y: hidden;
+      }
     }
     
     @media  screen and (max-width:576px){
@@ -245,6 +248,9 @@ header{
         max-width: 400px;
         
         
+      }
+      .header_wrap{
+        overflow-y: hidden;
       }
      
       
