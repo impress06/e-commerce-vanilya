@@ -1,0 +1,93 @@
+/* Base css start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+  }
+  ul,
+  ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  button {
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .btn {
+    display: inline-block;
+    border: 1px solid #1367ef;
+    line-height: 40px;
+    color: #fff;
+    background-color: #1367ef;
+    padding: 0 25px;
+    transition: all 0.2s ease-in;
+  }
+  .btnWhite {
+    display: inline-block;
+    border: 1px solid #000000;
+    line-height: 40px;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 0 25px;
+    transition: all 0.2s ease-in;
+    margin-top: 20px;
+  }
+  .btnWhite:hover{
+    color: #FFF;
+    background-color:#1367ef;
+    border-color: #1367ef;
+
+  }
+  .btn:hover {
+    color: #1367ef;
+    background-color: #fff;
+    border-color: #1367ef;
+  }
+  .btn-sm {
+    border: 1px solid #1367ef;
+    line-height: 33px;
+    color: #fff;
+    background-color: #1367ef;
+  }
+  .btn-large {
+    border: 1px solid #1367ef;
+    line-height: 45px;
+    color: #fff;
+    background-color: #1367ef;
+  }
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="number"] {
+    outline: none;
+    border: 1px solid black;
+    padding: 8px 8px 8px 15px;
+  }
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus {
+    border-color: gray;
+  }
+  input[type="number"]::-webkit-inner-spin-button{
+    opacity: 1;
+  }
+  /* Base css end */

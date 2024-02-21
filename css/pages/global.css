@@ -1,0 +1,13 @@
+.sectionTitle{
+    text-align: center;
+    margin: 20px 0;
+}
+.sectionTitle h2{
+    font-size: 32px;
+    font-weight: 600;
+
+}
+.sectionTitle p{
+    font-size: 18px;
+}
+

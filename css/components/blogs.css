@@ -1,0 +1,38 @@
+.blog .blog-info{
+    text-align: center;
+    margin: 15px 0;
+}
+.blogCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:15px
+}
+.blogCards .card img{
+    width: 100%;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.readMore{
+    border-bottom: 1px dashed black;
+    padding-bottom: 5px;
+}
+.readmoreBtn{
+    background-color: transparent;
+    margin-top: 15px;
+}
+.card .cardinfo{
+    margin-top: 10px;
+    color:#B2B3B9;
+    font-size: 14px;
+}
+@media screen and (max-width:768px){
+    .blogCards{
+        
+        grid-template-columns: 1fr;
+        
+    }
+}

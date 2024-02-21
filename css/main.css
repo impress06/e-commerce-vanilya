@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap");
+@import url(./base/base.css);
+@import url(./components/search.css);
+@import  url(./layout/header.css);
+@import url(./components/slider.css);
+@import url(./pages/global.css);
+@import url(./components/categories.css);
+@import url(./components/produtcs.css);
+@import url(./components/company.css);
+@import url(./components/blogs.css);
+@import url(./components/brands.css);
+@import url(./components/singleCompany.css);
+@import url(./components/policy.css);
+@import url(./components/footer.css);

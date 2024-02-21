@@ -1,0 +1,38 @@
+.singlecompany{
+    height: 550px;
+    width: 100%;
+    background: url(../../img/single-campaign.png);
+    background-attachment:fixed;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 140px 0; */
+    
+    
+}
+.company-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.company-wrapper{
+    color:white;
+    text-align: center;
+}
+.line{
+    display: block;
+    width: 210px;
+    height: 2px;
+    background-color: white;
+    margin-top: 10px;
+}
+.company-wrapper .discountprice{
+    font-size: 55px;
+}
+.company-wrapper p{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}

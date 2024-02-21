@@ -1,0 +1,15 @@
+.brand ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:20px 0;
+    padding: 30px 0;
+    border:1px solid #ededed
+}
+.brand ul li img{
+    opacity: .4;
+    transition: opacity 250ms ease-in;
+}
+.brand ul li img:hover{
+    opacity: 1;
+}

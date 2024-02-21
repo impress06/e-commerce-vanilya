@@ -1,0 +1,201 @@
+footer .footertop{
+    height: 400px;
+    color:white;
+    width: 100%;
+    background-color: #000000;
+}
+.footertop-wrapper{
+    display: flex;
+    padding: 85px 0;
+    justify-content: space-between;
+    gap:287px;
+    align-items: center;
+}
+.emailsCard h1{
+    font-size: 28px;
+    
+    font-weight: 400;
+}
+.emailinfo{
+    font-size:14px ;
+    color:#999999 !important;
+    margin-bottom: 20px;
+}
+.emailinputs{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+}
+.emailinput{
+    width: 100%;
+    line-height: 33px;
+    border:1px solid #fff ;
+    
+}
+.subscripe{
+    padding: 4px 10px;
+    background-color:#000000;
+    color:#fff;
+
+    line-height: 36px;
+    border-top: 1px solid #fff !important; 
+    border-right: 1px solid #fff !important;
+    border-bottom: 1px solid #fff !important;
+}
+.emailwarning{
+    display: inline-block;
+    font-size: 13px;
+    color:#999999;
+    
+}
+.appLinkCard h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 8px;
+
+}
+.helpwarnings{
+    font-size: 12px;
+    color:#999999;
+    margin-top: 5px;
+}
+.appstore{
+    display:flex;
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+.shoppingwarn{
+    font-size: 10px;
+    color:#999999;
+
+}
+@media screen  and (max-width:992px){
+    .footertop-wrapper{
+        
+        gap:100px;
+      
+       }
+    
+}
+
+.footermiddle{
+    height: 285px;
+    background-color: #fff;
+    width: 100%;
+    padding: 60px 0;
+    border-bottom: 1px solid #999999;
+    
+}
+
+.footerAdress{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 395px;
+    width: 100%;
+}
+.containerfooter{
+    display: flex;
+    justify-content: space-between;
+    gap:35px;
+    align-items: center;
+}
+.footerlinks{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap:30px;
+    max-width: 685px;
+    width: 100%;
+}
+.footerlinks h3{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.footerlinks {
+    font-size: 15px;
+    line-height: 17px;
+}
+.webadress p{
+    font-size: 15px;
+}
+.copyright span{
+    font-size: 14px;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    gap:10px
+    
+}
+.footerbottom-Privacy a{
+    font-size: 14px;
+    margin-right: 10px;
+}
+.footerlast{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    justify-content: space-between;
+}
+@media screen and (max-height:992px){
+    .footerlinks{
+        gap:10px;
+        justify-content: space-between;
+       }
+       .footerlinks h3{
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .footerlinks li {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .copyright span{
+        font-size: 11px;
+    }
+    .footerbottom-Privacy a{
+        font-size: 12px;
+        
+    }
+
+}
+
+@media screen and (max-width:768px){
+    footer .footertop{
+        height: 600px;
+       
+    
+    }
+    .footerlast{
+        flex-direction: column;
+    }
+    .copyright{
+        flex-direction: column;
+    }
+    .copyright span{
+        font-size: 11px;
+    }
+    .footerbottom-Privacy a{
+        font-size: 12px;
+        
+    }
+   .footertop-wrapper{
+    flex-direction: column !important;
+    gap:20px;
+    align-items: flex-start;
+   }
+   .containerfooter{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .footermiddle{
+    height: 410px;
+   }
+   .footerlinks{
+    gap:10px;
+   }
+
+}

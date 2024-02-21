@@ -1,0 +1,25 @@
+.policywrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.policywrapper i{
+    font-size: 58px ;
+    padding: 10px 0;
+}
+.policycards{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.policy-price{
+    display: block;
+    font-size: 14px;
+}
+.policy{
+    width: 100%;
+    border-top:2px solid #dee0ea;
+    padding: 20px 0;
+    margin-bottom: 20px;
+
+}
